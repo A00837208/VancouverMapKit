@@ -1,0 +1,188 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "zzzz-zzzz",
+      "name" : "Vancouver Firehall Locations",
+      "averageRating" : 0,
+      "description" : "This is the firehall dataset.",
+      "displayType" : "table",
+      "downloadCount" : 0,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 0,
+      "publicationAppendEnabled" : false,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1313892805,
+      "rowsUpdatedBy" : "b9n8-g9sn",
+      "tableId" : 218351,
+      "totalTimesRated" : 0,
+      "viewCount" : 0,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 2526335,
+        "name" : "FIRE HALL NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "fire_hall_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1391760,
+        "width" : 238,
+        "format" : { }
+      }, {
+        "id" : 2526336,
+        "name" : "LATITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1391761,
+        "width" : 166,
+        "format" : {
+          "aggregate" : "sum"
+        }
+      }, {
+        "id" : 2526337,
+        "name" : "LONGITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1391762,
+        "width" : 178,
+        "format" : { }
+      }, {
+        "id" : 2526338,
+        "name" : "ADDRESS",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1391763,
+        "width" : 154,
+        "format" : { }
+      }, {
+        "id" : 2526339,
+        "name" : "Loc",
+        "dataTypeName" : "location",
+        "fieldName" : "loc",
+        "position" : 5,
+        "renderTypeName" : "location",
+        "tableColumnId" : 1391764,
+        "width" : 248,
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "page" : true,
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "b9n8-g9sn",
+        "displayName" : "Todd Stavish",
+        "profileImageUrlLarge" : "/api/users/b9n8-g9sn/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/b9n8-g9sn/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/b9n8-g9sn/profile_images/TINY",
+        "screenName" : "Todd Stavish"
+      },
+      "tags" : [ "firehall safety" ],
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ 1, "DEB99501-21FE-4898-9A2B-15A3A16FF044", 1, 1279818751, "386763", 1279818751, "386763", null, "No 1", "49.2757557879496", "-123.089633564924", "900 Heatley Av", [ null, "49.2757557879496", "-123.089633564924", null, false ] ]
+, [ 2, "9A87AAA3-399C-4D29-A5FE-6327DD18283A", 2, 1279818751, "386763", 1279818751, "386763", null, "No 2", "49.2833989343018", "-123.100028850031", "199 Main St", [ null, "49.2833989343018", "-123.100028850031", null, false ] ]
+, [ 3, "062C9858-304D-4784-9F40-387E18C957DE", 3, 1279818751, "386763", 1279818751, "386763", null, "No 3", "49.2599716555727", "-123.1034324331", "2801 Quebec St", [ null, "49.2599716555727", "-123.1034324331", null, false ] ]
+, [ 4, "8E07F8DD-84AB-4A36-9802-B88E8D71E65E", 4, 1279818751, "386763", 1279818751, "386763", null, "No 4", "49.2628710568171", "-123.137578980719", "1475 W 10th Av", [ null, "49.2628710568171", "-123.137578980719", null, false ] ]
+, [ 5, "B985F8A1-DFF6-4D12-BFE1-5B13C2EFC00E", 5, 1279818751, "386763", 1279818751, "386763", null, "No 5", "49.219883858393", "-123.041750823072", "3090 E 54th Av", [ null, "49.219883858393", "-123.041750823072", null, false ] ]
+, [ 6, "41369070-75DA-4124-B398-8ADFC2871669", 6, 1279818751, "386763", 1279818751, "386763", null, "No 6", "49.2864877423013", "-123.134786345561", "1001 Nicola St", [ null, "49.2864877423013", "-123.134786345561", null, false ] ]
+, [ 7, "9C051C1E-67D3-4469-BB10-6B053EFDA845", 7, 1279818751, "386763", 1279818751, "386763", null, "No 7", "49.2835249047624", "-123.125930803993", "1090 Haro St", [ null, "49.2835249047624", "-123.125930803993", null, false ] ]
+, [ 8, "0B84F27F-C94D-4F11-9672-C19EA9AF9DF2", 8, 1279818751, "386763", 1279818751, "386763", null, "No 8", "49.2780606555938", "-123.117639437094", "895 Hamilton St", [ null, "49.2780606555938", "-123.117639437094", null, false ] ]
+, [ 9, "26E7DD14-9E07-4A1F-835A-793CE8B53A01", 9, 1279818751, "386763", 1279818751, "386763", null, "No 9", "49.2681117935618", "-123.066183093448", "1805 Victoria Drive", [ null, "49.2681117935618", "-123.066183093448", null, false ] ]
+, [ 10, "93562EA9-C800-4E0C-B880-471FE63CF99C", 10, 1279818751, "386763", 1279818751, "386763", null, "No 12", "49.2647927430118", "-123.173614488597", "2460 Balaclava St", [ null, "49.2647927430118", "-123.173614488597", null, false ] ]
+, [ 11, "11C96148-A509-4516-91FC-9840AC056093", 11, 1279818751, "386763", 1279818751, "386763", null, "No 13", "49.2488906817429", "-123.088063456192", "4013 Prince Albert ST", [ null, "49.2488906817429", "-123.088063456192", null, false ] ]
+, [ 12, "472DBCC1-47DF-4E81-A6B5-9336842DA1B6", 12, 1279818751, "386763", 1279818751, "386763", null, "No 14", "49.2763886663577", "-123.046353700482", "2804 Venables St", [ null, "49.2763886663577", "-123.046353700482", null, false ] ]
+, [ 13, "5F7C98C6-64EB-4F3C-99C8-2D4B8BAC02DB", 13, 1279818751, "386763", 1279818751, "386763", null, "No 15", "49.2508855516351", "-123.041230454628", "3003 E 22nd Av", [ null, "49.2508855516351", "-123.041230454628", null, false ] ]
+, [ 14, "F9670AC8-980E-406E-9796-8C6C1ACD4F88", 14, 1279818751, "386763", 1279818751, "386763", null, "No 17", "49.2198056785493", "-123.076718029789", "7070 Knight St", [ null, "49.2198056785493", "-123.076718029789", null, false ] ]
+, [ 15, "1DDC61AF-F30F-44F6-9C2F-0E9E8E628660", 15, 1279818751, "386763", 1279818751, "386763", null, "No 18", "49.2372716521754", "-123.136612705885", "1375 W 38th Av", [ null, "49.2372716521754", "-123.136612705885", null, false ] ]
+, [ 16, "EAF4DD7B-FA2E-420F-854A-272DE4108767", 16, 1279818751, "386763", 1279818751, "386763", null, "No 19", "49.2616794433299", "-123.205942401991", "4396 W 12th Av", [ null, "49.2616794433299", "-123.205942401991", null, false ] ]
+, [ 17, "EF7FCC5E-89DD-4D7B-9D36-7D668034C192", 17, 1279818751, "386763", 1279818751, "386763", null, "No 20", "49.2357791498382", "-123.065052263309", "5402 Victoria Drive", [ null, "49.2357791498382", "-123.065052263309", null, false ] ]
+, [ 18, "37EF2B9F-42F2-4D7C-8D70-51BEA12CF168", 18, 1279818751, "386763", 1279818751, "386763", null, "No 21", "49.2373032465887", "-123.173281362176", "5425 Carnarvon St", [ null, "49.2373032465887", "-123.173281362176", null, false ] ]
+, [ 19, "CF4B8445-150B-4B68-9548-86829AC5B664", 19, 1279818751, "386763", 1279818751, "386763", null, "No 22", "49.2174253755325", "-123.129770081888", "1005 W 59th Av", [ null, "49.2174253755325", "-123.129770081888", null, false ] ]
+, [ 20, "A7EA54B8-A440-47AF-AB1E-01E4A09CD0F7", 20, 1279818751, "386763", 1279818751, "386763", null, "No 10", "49.258019", "-123.238169", "2992 Wesbrook Mall", [ null, "49.258019", "-123.238169", null, false ] ]
+ ]
+}
